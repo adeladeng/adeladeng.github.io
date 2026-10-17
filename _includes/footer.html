@@ -1,5 +1,6 @@
-<link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
-
+{%- comment -%} Only render the footer when there is something to show in it {%- endcomment -%}
+{%- assign footer_content = site.author | default: site.description -%}
+{%- if footer_content and footer_content != "" -%}
 <footer class="site-footer h-card">
   <data class="u-url" value="{{ '/' | relative_url }}"></data>
 
@@ -26,3 +27,4 @@
   </div>
 
 </footer>
+{%- endif -%}
