@@ -27,6 +27,9 @@ url: "https://adeladeng.github.io" # the base hostname & protocol for your site
 github_username: adeladeng
 linkedin_username: adeladeng
 
+webmaster_verifications:
+  google: _3pJaPrcgKBmT5Gp8nf9Bw4TQccLTG9fYZSXGIwTU3Y
+
 
 # Build settings
 theme: minima
