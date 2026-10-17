@@ -3,7 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Hi, I’m Adela!
+title: Adela Deng
+heading: Hi, I’m Adela Deng!
+seo:
+  type: Person
 news:
   - date: Nov 2026
     text: "I will be presenting at [MWPLS](https://2026.mwpls.org/) on Nov 6 at the University of Iowa."

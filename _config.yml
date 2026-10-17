@@ -20,12 +20,20 @@
 
 title: Adela Deng
 email: adeladengyijia@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: "Adela Deng is a first-year PhD student at the University of Wisconsin–Madison, working on programming languages."
+tagline: "PhD Student at UW–Madison"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adeladeng.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username: adeladeng
 linkedin_username: adeladeng
+
+social:
+  name: Adela Deng
+  links:
+    - https://github.com/adeladeng
+    - https://www.linkedin.com/in/adeladeng/
+    - https://orcid.org/0009-0006-8170-9602
 
 webmaster_verifications:
   google: _3pJaPrcgKBmT5Gp8nf9Bw4TQccLTG9fYZSXGIwTU3Y
@@ -35,6 +43,7 @@ webmaster_verifications:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

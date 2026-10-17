@@ -1,6 +1,8 @@
-{%- comment -%} Only render the footer when there is something to show in it {%- endcomment -%}
-{%- assign footer_content = site.author | default: site.description -%}
-{%- if footer_content and footer_content != "" -%}
+{%- comment -%}
+  Only render the footer when site.author is set. site.description is used for
+  search engine metadata and would otherwise repeat the homepage intro here.
+{%- endcomment -%}
+{%- if site.author -%}
 <footer class="site-footer h-card">
   <data class="u-url" value="{{ '/' | relative_url }}"></data>
 

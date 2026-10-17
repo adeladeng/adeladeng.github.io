@@ -57,8 +57,10 @@ layout: default
 </style>
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- comment -%} page.heading is the on-page greeting; page.title stays short for the browser tab and search results {%- endcomment -%}
+  {%- assign heading = page.heading | default: page.title -%}
+  {%- if heading -%}
+    <h1 class="page-heading">{{ heading }}</h1>
   {%- endif -%}
 
   <div class="row">
